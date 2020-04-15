@@ -1,0 +1,48 @@
+body {
+    background-color: #283149;
+    text-align: center;
+}
+h1 {
+    font-family: 'Arvo', cursive;
+    font-size: 56px;
+    color: white;
+    text-shadow: 3px 0px darkred;
+    padding: 25px;
+}
+button {
+    font-family: 'Arvo', cursive;
+    height: 125px;
+    width: 125px;
+    font-size: 70px;
+    color: red;
+    background-size: 100%;
+    border: 5px solid gray;
+    border-radius: 5px;
+    text-shadow: 2px 0px black;
+    margin: 5px;
+}
+footer {
+    color: white;
+    padding: 50px;
+}
+.w {
+    background: url("images/crash.png");
+}
+.a {
+    background: url("images/kick.png");
+}
+.s {
+    background: url("images/snare.png");
+}
+.d {
+    background: url("images/tom1.png");
+}
+.j {
+    background: url("images/tom2.png");
+}
+.k {
+    background: url("images/tom3.png");
+}
+.l {
+    background: url("images/tom4.png");
+}
