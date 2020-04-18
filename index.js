@@ -50,13 +50,19 @@ function makeSound(key) {
             let tom4 = new Audio("sounds/tom-4.mp3");
             tom4.play();
             break;
-        default:console.log(key);
+        default:
+            return key;
     }
 }
 
 function buttonFlash(currentKey) {
     let activeButton = document.querySelector("." + currentKey)
-    activeButton.classList.add("pressed");
+    try {
+        activeButton.classList.add("pressed");
+    }
+    catch(e) {
+        return null;
+    }
 
     setTimeout(function () {
         activeButton.classList.remove("pressed");
